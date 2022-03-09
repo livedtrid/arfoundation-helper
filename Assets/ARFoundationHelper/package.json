@@ -1,7 +1,7 @@
 {
-  "name": "com.mylads.arframework",
-  "displayName": "MyLads AR Framework",
-  "version": "1.1.21",
+  "name": "com.mylads.arfoundationhelper",
+  "displayName": "ARFoundation Helper",
+  "version": "1.0.0",
   "unity": "2020.3",
   "description": "AR Foundation is free and powerful. However, its editor user experience is not that good as other commercial SDKs like Vuforia oe EasyAR. (especially for Image Tracking) So I develop this tool to improve the editor experience. Forked from https://github.com/newyellow/arfoundation-helper",
   "type": "library",
@@ -11,36 +11,22 @@
          "unity",
          "mylads"
      ],
-  "homepage": "https://bitbucket.org/mylads/mylads-armodule-unity/",
+  "homepage": "https://github.com/livedtrid/arfoundation-helper",
   "bugs": {
-     "url": "https://bitbucket.org/mylads/mylads-armodule-unity/jira",
+     "url": "https://github.com/livedtrid/arfoundation-helper",
      "email" : "hernani@mylads.com"
    },
   "repository": {
       "type": "git",
-      "url": "ssh://git@bitbucket.org:mylads/mylads-armodule-unity.git"
+      "url": "ssh://git@github.com:livedtrid/arfoundation-helper.git"
   },
   "license": "MIT",
   "author": {
-          "name": "MyLads AR Framework",
+          "name": "ARFoundation Helper",
           "email": "hernani@mylads.com",
           "url": "https://www.mylads.com/"
     },
     	"dependencies": {
-		"com.unity.addressables": "1.19.11",
-		"com.unity.localization": "1.0.3",
-		"com.unity.nuget.newtonsoft-json": "2.0.0",
-		"com.unity.uiextensions": "2.2.7"
-		
-	},  "samples": [
-  {
-    "displayName": "FaceMask Example Scenes",
-    "description": "Sample scenes illustrating various ways to use the FaceMask",
-    "path": "Samples~/FaceMaskSample"
-  },
-{
-    "displayName": "Analytics Example Scenes",
-    "description": "Sample scenes illustrating various ways to use the Analytics",
-    "path": "Samples~/AnalyticsSample"
-  }]
+	
+	}
 }
